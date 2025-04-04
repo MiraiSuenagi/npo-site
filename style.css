@@ -44,8 +44,14 @@ header {
     padding: 0 20px;
     height: 60px;
 }
-.logo img {
-    max-height: 40px;
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-container img {
+    height: 35px;
     width: auto;
 }
 
